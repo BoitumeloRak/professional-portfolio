@@ -12,7 +12,7 @@ function ScrambleText({ text }) {
             setDisplayed(
                 text.split("").map((letter, index) => {
                     if (index < iteration) return letter;
-                    return chars[Math.floor(Math.random() * chars.letter)];
+                    return chars[Math.floor(Math.random() * chars.length)];
                 }).join("")
             );
             iteration += 0.5;
