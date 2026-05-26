@@ -64,7 +64,7 @@ export default function Projects() {
                                 <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
                             )}
                             {project.netlify && (
-                                <a href={project.netlify} target="_blank" ref="noreferrer">Live Demo</a>
+                                <a href={project.netlify} target="_blank" rel="noreferrer">Live Demo</a>
                             )}
                         </div>
                     </div>
