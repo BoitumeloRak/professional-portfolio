@@ -18,16 +18,6 @@ const education = [
 
 const certifications = [
     {
-        title: "Full Stack Development Certificate",
-        issuer: "FNB App Academy",
-        year: "2025"
-    },
-    {
-        title: "Generative AI for Software Engineering",
-        issuer: "WeThinkCode_",
-        year: "2025"
-    },
-    {
         title: "SheCodes Junior Developer",
         issuer: "SheCodes",
         year: "2026"
@@ -36,7 +26,18 @@ const certifications = [
         title: "SheCodes Foundation Web Development Certificate",
         issuer: "SheCodes",
         year: "2026"
+    },
+    {
+        title: "Full Stack Development Certificate",
+        issuer: "FNB App Academy",
+        year: "2025"
+    },
+    {
+        title: "Generative AI for Software Engineering",
+        issuer: "WeThinkCode_",
+        year: "2025"
     }
+    
 ];
 
 export default function Education() {
