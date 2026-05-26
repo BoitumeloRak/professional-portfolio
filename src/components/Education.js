@@ -28,12 +28,12 @@ const certifications = [
         year: "2025"
     },
     {
-        title: "SheCodes Foundation Web Development Certificate",
+        title: "SheCodes Junior Developer",
         issuer: "SheCodes",
-        year: "2024"
+        year: "2026"
     },
     {
-        title: "SheCodes Junior Developer",
+        title: "SheCodes Foundation Web Development Certificate",
         issuer: "SheCodes",
         year: "2026"
     }
@@ -47,7 +47,7 @@ export default function Education() {
                 return (
                     <div className="education-iten" key={index}>
                         <div className="education-header">
-                            <div>
+                            <div className="education-left">
                                 <h3>{edu.degree}</h3>
                                 <span className="institution">{edu.institution}</span>
                             </div>

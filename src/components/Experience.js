@@ -36,7 +36,7 @@ export default function Experience() {
                 return (
                     <div className="experience-item" key={index}>
                         <div className="experience-header">
-                            <div>
+                            <div className="experience-left">
                                 <h3>{exp.title}</h3>                                
                                 <span className="company">{exp.company}</span>
                             </div>
@@ -45,7 +45,7 @@ export default function Experience() {
                                 <span className="location">{exp.location}</span>
                             </div>
                         </div>
-                        <ul>
+                        <ul className="experience-bullets">
                             {exp.bullet.map(function(bullet, i) {
                                 return <li key={i}>{bullet}</li>
                             })}

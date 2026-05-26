@@ -46,6 +46,7 @@
     font-size: 1rem;
     line-height: 1.8;
     max-width: 500px;
+    margin-bottom: 30px;
 }
 
 .welcome-photo {
@@ -82,6 +83,6 @@
     }
 
     .bio {
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
 }

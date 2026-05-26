@@ -1,0 +1,26 @@
+.cv-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background: transparent;
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.cv-download-btn:hover {
+    background: #6c63ff;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.cv-download-btn:active {
+    transform: translateY(0);
+}

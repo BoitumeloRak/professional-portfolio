@@ -35,6 +35,10 @@
     color: #6c63ff;
 }
 
+.navbar-cv {
+    flex-shrink: 0;
+}
+
 .menu-toggle {
     display: none;
     background: none;
@@ -47,6 +51,10 @@
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
+    }
+
+    .navbar-cv {
+        display: none;
     }
 
     .navbar-links {

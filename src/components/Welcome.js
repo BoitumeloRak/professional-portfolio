@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './Welcome.css';
+import CVDownload from "./CVDownload";
 
 const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
@@ -36,6 +37,7 @@ export default function Welcome() {
                     A passionate software engineer based in Johannesburg, Gauteng. 
                     I love building beautiful, functional web apps and solving real-world problems through code.
                 </p>
+                <CVDownload />
             </div>
             <div className="welcome-photo">
                 <img src="/Gemini_Generated_Image_.png" alt="Boitumelo Rakgole" />

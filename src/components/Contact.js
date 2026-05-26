@@ -23,7 +23,7 @@ export default function Contact() {
     return (
         <div className="Contact">
             <h2>Get in Touch</h2>
-            <p className="contact-intro">Feel to reach out - I'd love to connect</p>
+            <p className="contact-intro">Feel free to reach out - I'd love to connect</p>
             <div className="contact-list">
                 {contacts.map(function(contact, index) {
                     return (
