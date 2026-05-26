@@ -7,11 +7,11 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333;
+    color: #fff;
 }
 
 .contact-intro {
-    color: #666;
+    color: #aaa;
     margin-bottom: 40px;
     font-size: 1.1rem;
 }
@@ -25,21 +25,21 @@
 }
 
 .contact-item {
-    background: #fff;
+    background: #2a2a2a;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #333;
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    color: #333;
-    transition: transform 0.2s, box-shadow 0.2s;
+    color: #fff;
+    transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 .contact-item:hover {
+    border-color: #6c63ff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 .platform {
@@ -48,6 +48,6 @@
 }
 
 .display {
-    color: #666;
+    color: #aaa;
     font-size: 0.95rem;
 }

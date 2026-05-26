@@ -61,7 +61,7 @@ export default function Education() {
                 );
             })}
             
-            <h2 className="cert-heading">certifications</h2>
+            <h2 className="cert-heading">Certifications</h2>
             <div className="certifications-list">
                 {certifications.map(function(cert, index) {
                     return (

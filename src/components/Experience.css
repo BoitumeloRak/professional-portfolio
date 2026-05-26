@@ -1,8 +1,8 @@
-.Experience {
+.Education {
     padding: 60px 0;
 }
 
-.Experience h2 {
+.Education h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 30px;
@@ -10,64 +10,100 @@
     text-align: left;
 }
 
-.experience-item {
+.cert-heading {
+    margin-top: 40px;
+}
+
+.education-item {
     background: #2a2a2a;
     border-radius: 10px;
     border: 1px solid #333;
     padding: 30px;
     margin-bottom: 20px;
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    transition: border-color 0.2s ease;
 }
 
-.experience-item:hover {
+.education-item:hover {
     border-color: #6c63ff;
-    transform: translateY(-2px);
 }
 
-.experience-header {
+.education-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 15px;
     gap: 1rem;
 }
 
-.experience-left {
+.education-left {
     text-align: left;
 }
 
-.experience-left h3 {
-    font-size: 1.2rem;
+.education-left h3 {
+    font-size: 1.1rem;
     font-weight: bold;
     margin: 0 0 5px;
     color: #fff;
 }
 
-.company {
+.institution {
     color: #6c63ff;
     font-weight: 600;
     font-size: 0.95rem;
 }
 
-.experience-meta {
+.education-meta {
     text-align: right;
     font-size: 0.9rem;
     color: #aaa;
     flex-shrink: 0;
 }
 
-.experience-meta span {
+.education-meta span {
     display: block;
 }
 
-.experience-bullets {
-    padding-left: 20px;
-    margin: 0;
+.certifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cert-item {
+    background: #2a2a2a;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    transition: border-color 0.2s ease;
+}
+
+.cert-item:hover {
+    border-color: #6c63ff;
+}
+
+.cert-info {
     text-align: left;
 }
 
-.experience-bullets li {
-    margin-bottom: 8px;
-    color: #bbb;
-    line-height: 1.6;
+.cert-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.issuer {
+    color: #6c63ff;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.cert-year {
+    color: #aaa;
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-shrink: 0;
 }
