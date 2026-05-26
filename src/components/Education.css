@@ -1,0 +1,83 @@
+.Education {
+    padding: 60px 0;
+}
+
+.Education h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.cert-heading {
+    margin-top: 40px;
+}
+
+.education-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.education-header h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.institution {
+    color: #6c63ff;
+    font-weight: 600;
+}
+
+.education-meta {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.education-meta span {
+    display: block;
+}
+
+.certifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cert-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cert-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.issuer {
+    color: #6c63ff;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.cert-year {
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
