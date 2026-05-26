@@ -1,9 +1,9 @@
 import React from "react";
 import './Skills.css';
 
-const skill = ["Java", "Python", "JavaScript", "React", "HTML", "CSS", "GitHub", "Git", "Docker", "ActiveMQ"];
+const skills = ["Java", "Python", "JavaScript", "React", "HTML", "CSS", "GitHub", "Git", "Docker", "ActiveMQ"];
 
-export default function skills() {
+export default function Skills() {
     return (
         <div className="Skills">
             <h2>Skills</h2>
