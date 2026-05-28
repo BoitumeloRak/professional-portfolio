@@ -76,13 +76,29 @@
     .Welcome {
         flex-direction: column-reverse;
         text-align: center;
+        padding: 50px 0 40px;
+        gap: 24px;
     }
 
     .welcome-text h1 {
         font-size: 2rem;
     }
 
+    .role {
+        font-size: 1.1rem;
+    }
+
     .bio {
         margin: 0 auto 30px;
+        font-size: 0.95rem;
+    }
+
+    .welcome-photo {
+        flex: 0 0 auto;
+    }
+
+    .welcome-photo img {
+        width: 160px;
+        height: 160px;
     }
 }

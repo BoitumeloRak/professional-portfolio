@@ -40,7 +40,14 @@ export default function Welcome() {
                 <CVDownload />
             </div>
             <div className="welcome-photo">
-                <img src="/Gemini_Generated_Image_.png" alt="Boitumelo Rakgole" />
+                <img 
+                    src="/Gemini_Generated_Image_.png"
+                    alt="Boitumelo Rakgole"
+                    loading="eager"
+                    width="220"
+                    height="220"
+                    fetchPriority="high"
+                />
             </div>
         </div>
     );
